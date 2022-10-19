@@ -1,0 +1,81 @@
+<section>
+  <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselIndicators"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselIndicators"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselIndicators"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+    <div class="carousel-inner main-carousel">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="img/img2.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="img/img1.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="img/img4.jpg" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselIndicators"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselIndicators"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+
+  <section class="container-nueva-mercancia fade-in-section" style="background-color:#a5b4525b;" id="nueva-mercancia">
+      <div class="h-divider">
+  <div class="shadow"></div>
+  </div>
+    <h2 class="text-center">NUEVA MERCANCÍA</h2>
+    <div
+      class="nueva-mercancia-flex d-flex justify-content-center flex-wrap"
+    >
+    {{#each mercancias}}
+       
+    <div class="nueva-mercancia-item text-center" >
+      <div class="container-img-nm">
+        <img src="img/nueva-mercancia/{{imgurl}}" alt="" >
+        <div class="texto-nuevo">NUEVO</p></div>
+      </div>
+      <p>{{name}}</p>
+      <p>desde<span> {{price}}$</span></p>
+    </div>
+
+    {{/each}}
+    </div>
+  </section>
+

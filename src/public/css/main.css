@@ -1,0 +1,197 @@
+:root {
+    --main-bg-color: #f4f4f6;
+    --main-color: #B30036;
+  }
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;   
+}
+
+body{
+    background: var(--main-bg-color);
+}
+/*---------------top banner-------------------*/
+.carousel-top{
+    background-color: var(--main-color);
+    text-align: center; 
+    padding: 0.4em 0;  
+  }
+  
+  .top-ban{
+    font-size: 1.1rem;
+    text-shadow: 2px 3px 8px #00000063;
+  }
+/*---------------navbar------------------------*/
+.container-nav{
+    width: 100%;
+    font-size: 0.8rem;
+    background-color: #eaeaea;
+    box-shadow: rgba(50, 50, 105, 0.111) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    z-index: 2;
+  }
+
+.dropdown-menu{
+    font-size: 0.8rem;
+    border-radius: 0;
+    border: 1px solid rgba(239, 236, 236, 0.293);
+    opacity: 0.9;
+    background-color: #eaeaeaa0;
+}
+.navbar{
+    padding:0.2em;
+}
+.navbar-nav{
+    gap:0.6em;
+    margin-left: auto;
+  }
+.navbar img{
+    width:120px;
+  }
+@media (max-width:600px){
+    .navbar img{
+      width:120px;
+    }
+  }
+@media (max-width:380px){
+    .navbar img{
+      width:100px;
+    }
+  }
+@media (max-width:1200px){
+    .navbar-nav{
+      gap:0.50em;
+    }
+  }
+  /*----------------carrusel principal------------------*/
+
+  .main-carousel img{
+    height: 480px;
+    object-fit: cover;
+  }
+  /*---------------------------------------------------*/
+
+  .h-divider {
+    margin: auto;
+    margin-top: 80px;
+    width: 97%;
+    position: relative;
+  }
+  
+  .h-divider .shadow {
+    overflow: hidden;
+    height: 20px;
+    box-shadow: none !important;
+  }
+  
+  .h-divider .shadow:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px/12px;
+    box-shadow: 0 0 8px black;
+  }
+  
+  
+  /*------------------nueva mercancia---------------------*/
+
+  .nueva-mercancia-flex img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nueva-mercancia-flex img:hover{
+    width: 160px;
+    height: 160px;
+    border: 1px solid #1c28268d;
+    box-shadow: rgb(38, 57, 77) 0px 20px 15px -10px;
+  }
+ 
+  .nueva-mercancia-flex{
+    gap:3em;
+    margin: 3em auto;
+    padding-bottom: 5.5em;
+  }
+
+  @media (max-width:360px){
+
+    .nueva-mercancia-flex img{
+      width: 90px;
+      height: 90px;
+
+    }
+  
+    .nueva-mercancia-flex img:hover{
+      width: 90px;
+      height: 90px;
+
+    }
+    .nueva-mercancia-flex{
+      gap:1.5em;
+      font-size: 0.7rem;
+
+    }
+  }
+  
+  .container-nueva-mercancia h2{
+    font-size: 1.1rem;
+    margin-top: 1.5em;
+    padding: 0.5em;
+    text-shadow: rgba(0,0,0,.2) 2px 6px 5px,rgba(255,255,255,.4) 0 -4px 30px;
+  }
+  
+  .nueva-mercancia-item p{
+    margin:0;
+  }
+  
+  .nueva-mercancia-item p:nth-child(2){
+    margin-top:0.5em;
+  }
+  .nueva-mercancia-item p:nth-child(3){
+    color:rgba(0, 0, 0, 0.500);
+    margin:0;
+  }
+  .nueva-mercancia-item span{
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+  }
+  
+  .container-img-nm{
+    position: relative;
+  }
+  .texto-nuevo{
+    position:absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.7rem;
+    background: #B30036;
+    color: #ffffff;
+    padding: 0.2em 0.5em;
+  }
+
+  .image-container-about{
+    background-image: url('../img/contactus.jpg');
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height:800px;
+  }
+
+  /******************************/
+
+  .fade-in-section {
+    opacity: 0;
+    transform: scale(0.94);
+    transition: 0.3s ease-in-out all;
+    
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+
