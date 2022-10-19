@@ -1,0 +1,148 @@
+.container-map{
+
+  bottom:0;
+  padding:4em;
+  gap: 1em;
+}
+
+.ubicacion{
+  width:100%;
+  max-width:992px;
+}
+.mapa{
+  width: 100%;
+  max-width:992px;
+  height:400px;
+  border: 15px solid white;
+}
+
+@media (max-width:575px){
+  .container-map{  
+    padding:4em 1em;
+  }
+  .mapa{
+    height: 280px;
+  }
+}
+.leaflet-popup-content-wrapper{
+  background-color: #f1faee;
+  font-size: 0.6rem;
+}
+
+.leaflet-popup-content-wrapper span{
+  font-size: 0.58rem;
+  font-weight: 700;
+  font-style: italic;
+}
+.autocomplete div{
+  font-weight: lighter;
+}
+
+.span-list{
+  font-style: italic;
+  font-size: 0.7rem;
+  opacity: 0.6;
+}
+/*---------------------*/
+.container-banner-contact{
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 60%), url("../../img/fachada.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+  }
+
+.modalLocalizar {
+    background: #25283d;
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.5s ease 0.5s, height 0.5s ease;
+    width: 0;
+  }
+  
+  .contentLocalizar {
+    color: transparent;
+    font-family: "Consolas", arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    transition: color 0.5s ease;
+    width: 100%;
+  }
+
+  .container-banner-contact label {
+    color: white;
+    cursor: pointer;
+    font-family: "Consolas", arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 1.2em 0.8em;
+    margin-top:50px;
+    background:#25283d;
+    text-align: center;
+    min-width:20%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    transform: translate(-50%, -50%);
+    transition: color 0.5s ease 0.5s;
+  }
+
+  input[type='checkbox'] {
+    cursor: pointer;
+    height: 0;
+    opacity: 0;
+    width: 0;
+  }
+  .container-banner-contact input:focus {
+    outline: none;
+  }
+  
+  .container-banner-contact input:checked {
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+    -webkit-appearance: none;
+    width: 40px;
+  }
+  .container-banner-contact input:checked::after, .container-banner-contact input:checked:before {
+    border-top: 1px solid #FFF;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 100%;
+  }
+  .container-banner-contact input:checked::after {
+    transform: rotate(-45deg);
+  }
+  
+  .container-banner-contact input:checked + label {
+    color: #FFF;
+    transition: color 0.5s ease;
+  }
+  
+  .container-banner-contact input:checked ~ .modalLocalizar {
+    height: 100%;
+    width: 100%;
+    transition: width 0.5s ease, height 0.5s ease 0.5s;
+  }
+  .container-banner-contact input:checked ~ .modalLocalizar .contentLocalizar {
+    color: #FFF;
+    transition: color 0.5s ease 0.5s;
+  }
+
+
+/*--------------------------------------*/

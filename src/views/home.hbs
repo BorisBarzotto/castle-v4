@@ -54,12 +54,10 @@
   </div>
 </section>
 
-
-
   <section class="container-nueva-mercancia fade-in-section" style="background-color:#a5b4525b;" id="nueva-mercancia">
       <div class="h-divider">
-  <div class="shadow"></div>
-  </div>
+        <div class="shadow"></div>
+      </div>
     <h2 class="text-center">NUEVA MERCANCÍA</h2>
     <div
       class="nueva-mercancia-flex d-flex justify-content-center flex-wrap"
@@ -78,4 +76,70 @@
     {{/each}}
     </div>
   </section>
+
+  <div class="container-banner-contact" id="tiendas">
+      <input id='button' type='checkbox'>
+      <label for='button'>Buscar Tienda</label>
+      <div class='modalLocalizar'>
+        <div class='contentLocalizar'>
+            <div class="container-map d-flex align-items-center justify-content-center flex-wrap">
+              <div class="ubicacion align-self-start">		
+                  <span class="label" style="font-size:1rem;">Buscar:</span>
+                  <input type="text" id="testinput" placeholder="Encontrar tienda..." style="width:100%;" spellcheck="false"/>    		
+              </div>
+              <div class="mapa" id="map"></div>
+            </div>
+        </div>
+      </div>
+  </div>
+
+    <section class="video-container" id="aprende">
+    <div class="d-flex flex-md-row flex-column  align-items-center"> 
+    <div class="text-emprender mx-5 fade-in-section">
+      <h2>“No tengas miedo al fracaso, ten miedo de no intentarlo.”</h2>
+      <h4 style="margin-top:1em;text-align:end" class="mb-3"> —Roy T. Bennett</h4>
+    </div>   
+    <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/5wnk4FZXh7w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>  
+  </section>
+
+  <section class="info-grid">
+    <div class="container-fluid">
+      <div class="row g-3 px-md-5 ">
+        <div class="col-md-5">
+        <div class="p-3 border bg-light cols">
+              <p style="font-weight: 900; margin-bottom: 0;">Noticias</p>
+              <img src="img/castillo.svg" height=20 style="opacity:0.8;margin:5px 0;">
+              <h1> Acontecimientos más relevantes</h1>
+              <p>Entérese de las últimas actividades de su centro textil favorito cada semana</p>
+              <button type="button" class="btn btn-danger">Ver mas</button>               
+        </div>
+        </div>
+        <div class="col-md-7">
+          <div class="p-3 border cols cols1">
+            <h2 class="text-light">Inauguración de nuestra tienda en Coro</h2>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="p-3 border cols cols2">
+            <h2 class="text-light">Premiamos la creatividad de Maracay</h2>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="p-3 border cols cols3">
+            <h2 class="text-light">Carúpano ¡Llegamos a tí!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-banner-contact2" id="contactanos">
+    <div class="enroll-now p-3 shadow p-3 mb-5 bg-white d-flex flex-column flex-wrap justify-content-center">
+      <h2 class="mb-2 text-center">Nuestro equipo es invaluable, pero aún no te tiene a ti ¡Forma parte de El Castillo!</h2>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#postularmeModal" class="btn btn-danger text-center shadow">Postularme</button>
+    </div>
+  </div>
 

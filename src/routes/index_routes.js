@@ -1,10 +1,13 @@
 import { Router } from "express";
 import Mercancia from "../models/mercancia.js";
+import tiendasUbicacion from '../public/shops.json' assert {type: 'json'};
+
+
 const router = Router();
 
 router.get("/", async (req,res)=>{
   const mercancias = await Mercancia.find().lean();
-  res.render('home', { mercancias } );
+  res.render('home', { mercancias, tiendasUbicacion } );
 });
 
 router.get("/about", (req,res)=>{

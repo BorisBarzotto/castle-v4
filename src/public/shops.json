@@ -1,0 +1,236 @@
+[
+    {   
+        "sede": "Av Bolivar",
+        "ciudad": "Valencia",
+        "estado": "Carabobo",
+        "coord":[10.21267,-68.00875] 
+     },{
+        "sede": "Plaza Bolivar",
+        "ciudad": "Valencia",
+        "estado": "Carabobo",
+        "coord":[10.18481,-67.99272]
+        },
+    {
+        "sede": "Guacara",
+        "ciudad": "Guacara",
+        "estado": "Carabobo",
+        "coord":[10.21934,-67.89607]
+        },
+    {
+        "sede": "Girardot",
+        "ciudad": "Valencia",
+        "estado": "Carabobo",
+        "coord":[10.17915,-68.00526]
+    },
+    {
+        "sede": "CC Las Americas",
+        "ciudad": "Maracay",
+        "estado": "Aragua",
+        "coord":[10.26237,-67.58737]
+    },
+    {
+        "sede": "Blvd. Almarza",
+        "ciudad": "Maracay",
+        "estado": "Aragua",
+        "coord":[10.25029,-67.60394]
+    },
+    {
+        "sede": "Puerto La Cruz",
+        "ciudad": "Puerto La Cruz",
+        "estado": "Anzoategui",
+        "coord":[10.22001,-64.63662]
+    },
+    {
+        "sede": "El Tigre",
+        "ciudad": "El Tigre",
+        "estado": "Anzoategui",
+        "coord":[8.88745,-64.25939]
+    },
+    {
+        "sede": "Barinas",
+        "ciudad": "Barinas",
+        "estado": "Barinas",
+        "coord":[8.63018,-70.21413]
+    },
+    
+    {
+        "sede": "Paseo Orinoco",
+        "ciudad": "ciudad Bolivar",
+        "estado": "Bolivar",
+        "coord":[8.14571,-63.54523]
+    },
+    {
+        "sede": "ciudad Guayana",
+        "ciudad": "ciudad Guayana",
+        "estado": "Bolivar",
+        "coord":[8.36917,-62.66344]
+    },
+    {
+        "sede": "San Felix",
+        "ciudad": "San Felix",
+        "estado": "Bolivar",
+        "coord":[8.29568,-62.73749]
+    },
+    {
+        "sede": "Catia",
+        "ciudad": "Caracas",
+        "estado": "Distrito Capital",
+        "coord":[10.51215,-66.94612]
+    },
+    {
+        "sede": "La Marron",
+        "ciudad": "Caracas",
+        "estado": "Distrito Capital",
+        "coord":[10.50570,-66.91177]
+    },
+    {
+        "sede": "La California",
+        "ciudad": "Caracas",
+        "estado": "Distrito Capital",
+        "coord":[10.48538,-66.82252]
+        },
+    {
+        "sede": "La Madrid",
+        "ciudad": "Caracas",
+        "estado": "Distrito Capital",
+        "coord":[10.50597,-66.91210]
+    },
+    {
+        "sede": "Sabana Grande",
+        "ciudad": "Caracas",
+        "estado": "Distrito Capital",
+        "coord":[10.49252,-66.87394]
+    },
+    {
+        "sede": "Coro",
+        "ciudad": "Coro",
+        "estado": "Falcon",
+        "coord":[11.38579,-69.66816]
+    },
+    {
+        "sede": "Calabozo",
+        "ciudad": "Calabozo",
+        "estado": "Guarico",
+        "coord":[8.93125,-67.42805]
+    },
+    {
+        "sede": "Valle de la Pascua",
+        "ciudad": "Valle de La Pascua",
+        "estado": "Guarico",
+        "coord":[9.22551,-66.02946]
+        },        
+    {
+        "sede": "La Guaira",
+        "ciudad": "La Guaira",
+        "estado": "La Guaira",
+        "coord":[10.59507,-66.95236]
+        },
+    {
+        "sede": "Maiquetia",
+        "ciudad": "La Guaira",
+        "estado": "La Guaira",
+        "coord":[10.59507,-66.95236]
+        },
+    {
+        "sede": "Centro",
+        "ciudad": "Barquisimeto",
+        "estado": "Lara",
+        "coord":[10.06709,-69.31784]
+        },
+    {
+        "sede": "Este",
+        "ciudad": "Barquisimeto",
+        "estado": "Lara",
+        "coord":[10.06373,-69.28781]
+        },
+    {
+        "sede": "El Vigia",
+        "ciudad": "El Vigia",
+        "estado": "Merida",
+        "coord":[8.61536,-71.65002]
+        },
+    {
+        "sede": "Merida",
+        "ciudad": "Merida",
+        "estado": "Merida",
+        "coord":[8.59706,-71.14532]
+        },
+    {
+        "sede": "Maturin",
+        "ciudad": "Maturin",
+        "estado": "Monagas",
+        "coord":[9.74699,-63.18264]
+        },
+    {
+        "sede": "Porlamar",
+        "ciudad": "Porlamar",
+        "estado": "Nueva Esparta",
+        "coord":[10.95614,-63.85181]
+        },
+    {
+        "sede": "Acarigua",
+        "ciudad": "Guanare",
+        "estado": "Portuguesa",
+        "coord":[9.55751,-69.20908]
+        },
+    {
+        "sede": "Guanare",
+        "ciudad": "Guanare",
+        "estado": "Portuguesa",
+        "coord":[9.04292,-69.75312]
+        },
+    {
+        "sede": "Cumana",
+        "ciudad": "Cumana",
+        "estado": "Sucre",
+        "coord":[10.46262,-64.18286]
+        },
+    {
+        "sede": "Carupano",
+        "ciudad": "Carupano",
+        "estado": "Sucre",
+        "coord":[10.66733,-63.24819]
+        },
+    {
+        "sede": "San Antonio del Tachira",
+        "ciudad": "San Antonio del Tachira",
+        "estado": "Tachira",
+        "coord":[7.81400,-72.44609]
+        },
+    {
+        "sede": "San Cristobal",
+        "ciudad": "San Cristobal",
+        "estado": "Tachira",
+        "coord":[7.76625,-72.23306]
+        },
+    {
+        "sede": "Valera",
+        "ciudad": "Valera",
+        "estado": "Trujillo",
+        "coord":[9.31377,-70.60816]
+        },
+    {
+        "sede": "Plaza Baralt",
+        "ciudad": "Maracaibo",
+        "estado": "Zulia",
+        "coord":[10.64047,-71.60992]
+        },
+    {
+        "sede": "La Limpia",
+        "ciudad": "Maracaibo",
+        "estado": "Zulia",
+        "coord":[10.67939,-71.66324]
+        },
+    {
+        "sede": "Cabimas",
+        "ciudad": "Cabimas",
+        "estado": "Zulia",
+        "coord":[10.39117,-71.47080]
+        },
+    {
+        "sede": "ciudad Ojeda",
+        "ciudad": "ciudad Ojeda",
+        "estado": "Zulia",
+        "coord":[10.19454,-71.31853]
+        }
+]
