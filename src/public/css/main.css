@@ -499,6 +499,9 @@ body{
     bottom: 20px;
     right: 20px;
   }
+  .scroll-container:hover{
+    background: transparent;
+  }
 }
 .indicator{
   position:relative;
