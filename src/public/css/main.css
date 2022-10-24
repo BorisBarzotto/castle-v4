@@ -177,27 +177,10 @@ body{
   font-size: 2.5rem;
   text-align: center;
  }
-@media (max-width:992px){
- .text-emprender h2{
-  font-size: 1.8rem;
- }
- .text-emprender h4{
-  font-size: 1.2rem;
- }
-}
-@media (max-width:768px){
-  .text-emprender h2{
-   font-size: 1.2rem;
-  }
-  .text-emprender h4{
-    font-size: 0.9rem;
-   }
- }
 
-.video-container{
+ .video-container{
   background-image: url('/img/black-linen.png') , url('/img/aprende.jpg');
   background-size: cover;
-  padding: 2em;
   margin:3em 0;
   padding:7em 1em;
   
@@ -220,6 +203,39 @@ body{
       background-size: 100%;
     }
   }
+
+@media (max-width:992px){
+ .text-emprender h2{
+  font-size: 1.8rem;
+ }
+ .text-emprender h4{
+  font-size: 1.2rem;
+ }
+}
+@media (max-width:768px){
+  .text-emprender h2{
+   font-size: 1.2rem;
+  }
+  .text-emprender h4{
+    font-size: 0.9rem;
+   }
+ }
+
+ @media (max-width:576px){
+
+  .video-container{
+    padding:3em 0;
+  };
+  .text-emprender{
+    width:90%;
+  }
+  .text-emprender h2{
+   font-size: 1rem;
+  }
+  .text-emprender h4{
+    font-size: 0.8rem;
+   }
+ }
 
   /*------------------------------------------INFO GRID-------------------------------------*/
 .info-grid{
