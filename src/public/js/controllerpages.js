@@ -1,4 +1,4 @@
-import tiendasUbicacion from '../shops.json' assert {type: 'json'};
+import tiendasUbicacion from '../db/shops.js';
 
 addEventListener("DOMContentLoaded", (event) => {
   const nuevaMercancia = document.getElementById("nueva-mercancia");

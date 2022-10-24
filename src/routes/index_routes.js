@@ -1,7 +1,9 @@
 import { Router } from "express";
+//import fetch from 'node-fetch';
 //import Mercancia from "../models/mercancia.js";
-import mercancias from "../public/mercancias.json" assert {type: 'json'};
-import tiendasUbicacion from '../public/shops.json' assert {type: 'json'};
+import mercancias from "../public/db/mercancias.js";
+import tiendasUbicacion from '../public/db/shops.js';
+
 
 const router = Router();
 
