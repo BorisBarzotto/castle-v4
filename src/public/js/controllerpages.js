@@ -146,3 +146,31 @@ addEventListener("DOMContentLoaded", (event) => {
 
 
 //---------------------------------------------------------------------------------------------
+
+const scrollIndicator = document.getElementById('scroll-indicator');
+const footer = document.getElementById('footer');
+console.log(footer);
+const linkTop = ()=>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+const scrollChange = (entrada,observador) =>{
+  
+    entrada.forEach((entrada)=>{
+        if(entrada.isIntersecting){
+            scrollIndicator.classList.add('rotate-scroll');
+            scrollIndicator.addEventListener('click', linkTop);
+        }
+        else{
+            scrollIndicator.classList.remove('rotate-scroll');
+            scrollIndicator.removeEventListener('click', linkTop);
+    }
+})};
+
+const observeBottom = new IntersectionObserver(scrollChange, {
+    root: null,
+    rootMargin: '0px 0px 0px 0px',
+    threshold: 0.4,
+});
+
+observeBottom.observe(footer);

@@ -474,4 +474,94 @@ body{
 
 /**************************************************************************/
 
+.scroll-container{
+  position:fixed;
+  bottom: 40px;
+  right: 40px;
+  background: rgba(193, 53, 53, 0.604);
+  display: flex;
+  border-radius: 50%;
+  height:70px;
+  width:70px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease-in-out;
+  z-index: 10;
+}
+
+.scroll-container:hover{
+  background: rgba(193, 53, 53, 0.8);
+}
+
+@media (max-width:768px){
+  .scroll-container{
+    background:transparent;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+.indicator{
+  position:relative;
+  top:40%;
+  height: 15px;
+  width: 15px;
+  transform: translateY(-170%) rotate(45deg);
+}
+
+.indicator span{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+  border-right: 1px solid rgba(255, 255, 255, 0.60);
+  animation: animate 1s linear infinite;
+}
+
+.indicator span:nth-child(1){
+  top:-18px;
+  left:-18px;
+  animation-delay:0.1s;
+}
+
+.indicator span:nth-child(2){
+  top:-12px;
+  left:-12px;
+  animation-delay:0.2s;
+}
+
+.indicator span:nth-child(3){
+  top:-6px;
+  left:-6px;
+  animation-delay:0.3s;
+}
+
+.indicator span:nth-child(4){
+  top:0px;
+  left:0px;
+  animation-delay:0.4s;
+}
+
+@keyframes animate{
+  0%{
+      border-color: #fff;
+      transform: translate(0,0);
+  }
+  20%{
+      border-color: #fff;
+      transform: translate(10px,10px);
+  }
+
+  20.1%,100%{
+      border-color: rgba(255, 250, 250, 0.345);
+  }
+}
+
+.rotate-scroll{
+  transform: rotate(180deg);
+}
 
