@@ -1,0 +1,196 @@
+<style>
+    
+    .news-container{
+            padding: 3em 6em;
+            margin-top: 2em;
+    }
+
+    .news-grid{
+        
+        display:flex;
+        flex-direction: row;
+        margin-bottom: 3em;       
+        height:400px;
+        gap:1em;
+    }
+
+    .news{
+
+        flex: 1 1 auto; 
+        background-position: center; 
+        background-size: cover;
+        opacity:1;
+        transition: all 1s ease-in-out;   
+    }
+    .news:hover{
+        opacity:0.7;
+    }
+
+    .news-principal{
+
+        flex-grow: 1;
+        background-image: url('img/carupano.jpg');
+        
+    }
+    .news-secundaria{
+
+        flex-grow: 1;
+        display:flex;
+        flex-direction: column;
+        gap:1em; 
+    }
+
+    .news-secundaria-top{
+
+        display:flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+        gap:1em;
+    }
+
+    .news-secundaria-bottom{
+
+        display:flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+        gap:1em;
+    }
+
+    .news-grid-plus{
+          display:flex;
+          flex-direction: row;
+          justify-content:space-between;
+          width:100%;
+          flex-wrap: wrap;
+        gap:1em;
+    }
+
+    .news-principal-plus{
+        display:flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex:60%;
+        gap:2em;
+    }
+
+    .news-plus{
+        height:250px;
+        flex: 40%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .news-historic{
+        display:flex;
+        flex-direction: column;
+        flex:30%;
+    }
+
+    .news-historic-article{
+        display:flex;
+        flex-direction: row;
+        padding:1em 1em;
+        gap:0.5em;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    @media (max-width:992px){
+        .news-grid{
+            flex-direction: column;
+        }
+
+        .news-principal-plus{
+            flex-direction: column;
+        }
+    }
+
+    .article-img{
+        width:100px;
+        height:100px;
+        margin:0;
+        background-size: cover;
+        flex:30%;
+    }
+
+    .article-text{
+        display:flex;
+        flex-direction: column;
+        flex:60%;
+    }
+
+</style>
+
+<div class="news-container">
+    <h3>Noticias destacadas</h3>
+    <div class="news-grid">
+        <div class="news-principal"></div>
+        <div class="news-secundaria">
+            <div class="news-secundaria-top">
+                <div class="news" style="background-image: url('img/noticia4.jpg');"></div>
+                <div class="news" style="background-image: url('img/coro.jpg');"></div>
+            </div>
+            <div class="news-secundaria-bottom">
+                <div class="news" style="background-image: url('img/maracay2.jpg');"></div>
+                <div class="news" style="background-image: url('img/noticia5.jpg');"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="news-grid-plus">
+        <div class="news-principal-plus">
+            <div class="news-plus" style="background-image: url('img/noticia6.jpg');"></div>
+            <div class="news-plus" style="background-image: url('img/noticia7.jpg');"></div>
+            <div class="news-plus" style="background-image: url('img/noticia8.jpg');"></div>
+            <div class="news-plus" style="background-image: url('img/noticia9.jpg');"></div>
+            <div class="news-plus" style="background-image: url('img/noticia10.jpg');"></div>
+        </div>
+        <div class="news-historic">
+            <h4>Últimas novedades</h4>
+            <div class="news-historic-article">
+                <div class="article-img" style="background-image: url('img/articulo1.jfif');"></div>
+                <div class="article-text">
+                    <p class="article" style="margin-bottom:0;">Todo listo para recibir la semana de la moda en Milan.</p>
+                    <p style="font-size:0.8rem;opacity:0.6;">12 de Octubre 2022</p>
+                </div>
+            </div>
+            <div class="news-historic-article">
+                <div class="article-img" style="background-image: url('img/articulo2.jpg');"></div>
+                <div class="article-text">
+                    <p class="article" style="margin-bottom:0;">Semana de la moda en Colombia.</p>
+                    <p style="font-size:0.8rem;opacity:0.6;">15 de Octubre 2022</p>
+                </div>
+            </div>
+            <div class="news-historic-article">
+                <div class="article-img" style="background-image: url('img/articulo3.jfif');"></div>
+                <div class="article-text">
+                    <p class="article" style="margin-bottom:0;">Gran feria textil en Anaco.</p>
+                    <p style="font-size:0.8rem;opacity:0.6;">12 de Octubre 2022</p>
+                </div>
+            </div>
+            <div class="news-historic-article">
+                <div class="article-img" style="background-image: url('img/articulo4.jfif');"></div>
+                <div class="article-text">
+                    <p class="article" style="margin-bottom:0;">30 dias para el magno evento en San Diego.</p>
+                    <p style="font-size:0.8rem;opacity:0.6;">02 de Octubre 2022</p>
+                </div>
+            </div>
+        </div>-
+    </div>
+
+</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

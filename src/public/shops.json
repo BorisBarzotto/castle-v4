@@ -55,13 +55,13 @@
     
     {
         "sede": "Paseo Orinoco",
-        "ciudad": "ciudad Bolivar",
+        "ciudad": "Ciudad Bolivar",
         "estado": "Bolivar",
         "coord":[8.14571,-63.54523]
     },
     {
-        "sede": "ciudad Guayana",
-        "ciudad": "ciudad Guayana",
+        "sede": "Ciudad Guayana",
+        "ciudad": "Ciudad Guayana",
         "estado": "Bolivar",
         "coord":[8.36917,-62.66344]
     },
@@ -228,8 +228,8 @@
         "coord":[10.39117,-71.47080]
         },
     {
-        "sede": "ciudad Ojeda",
-        "ciudad": "ciudad Ojeda",
+        "sede": "Ciudad Ojeda",
+        "ciudad": "Ciudad Ojeda",
         "estado": "Zulia",
         "coord":[10.19454,-71.31853]
         }

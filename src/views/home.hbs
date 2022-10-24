@@ -114,7 +114,7 @@
               <img src="img/castillo.svg" height=20 style="opacity:0.8;margin:5px 0;">
               <h1> Acontecimientos más relevantes</h1>
               <p>Entérese de las últimas actividades de su centro textil favorito cada semana</p>
-              <button type="button" class="btn btn-danger">Ver mas</button>               
+              <a href="/news" class="btn btn-danger">Ver mas</a>               
         </div>
         </div>
         <div class="col-md-7">
@@ -139,7 +139,66 @@
   <div class="container-banner-contact2" id="contactanos">
     <div class="enroll-now p-3 shadow p-3 mb-5 bg-white d-flex flex-column flex-wrap justify-content-center">
       <h2 class="mb-2 text-center">Nuestro equipo es invaluable, pero aún no te tiene a ti ¡Forma parte de El Castillo!</h2>
-      <button type="button" data-bs-toggle="modal" data-bs-target="#postularmeModal" class="btn btn-danger text-center shadow">Postularme</button>
+      <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Unete</button>
+    </div>
+
+   <!-- Modal -->
+    <div class="modal fade pr-0" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 font-weight-bold" id="exampleModalLabel">Datos</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+  <div class="row mb-2">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example1" class="form-control border-danger p-2" />
+        <label class="form-label" for="form6Example1">Nombres</label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example2" class="form-control border-danger p-2" />
+        <label class="form-label" for="form6Example2">Apellidos</label>
+      </div>
     </div>
   </div>
+
+  <!-- Email input -->
+  <div class="form-outline mb-2">
+    <input type="email" id="form6Example5" class="form-control border-danger" />
+    <label class="form-label" for="form6Example5">Email</label>
+  </div>
+  <!---->
+  <div class="mb-2">
+  <input class="form-control border-danger" type="file" id="formFile">
+  <label for="formFile" class="form-label">Cargar curriculum</label>
+</div>
+
+  <!-- Text input -->
+  <div class="form-outline mb-4">
+    <select class="form-select border-danger" aria-label="Default select example">
+    <option selected>Elegir ciudad</option>
+    {{#each listaCiudades}}
+      <option value={{this}}>{{this}}</option>
+    {{/each}}
+    </select>
+  </div>
+
+  <!-- Submit button -->
+  <div class="text-center ">
+    <button type="submit" class="btn btn-danger mb-4">Enviar datos</button>
+  </div>
+</form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 

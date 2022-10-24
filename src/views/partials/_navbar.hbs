@@ -1,6 +1,51 @@
-<div class="container-nav sticky-top">
+<style>
+  .container-nav{
+    width: 100%;
+    padding:0 2em;
+    font-size: 0.8rem;
+    background-color: #eaeaea;
+    box-shadow: rgba(50, 50, 105, 0.111) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    z-index: 2;
+  }
+
+.dropdown-menu{
+    font-size: 0.8rem;
+    border-radius: 0;
+    border: 1px solid rgba(239, 236, 236, 0.293);
+    opacity: 0.9;
+    background-color: #eaeaeaa0;
+}
+.navbar{
+    padding:0.2em;
+
+}
+.navbar-nav{
+    gap:0.6em;
+    margin-left: auto;
+  }
+.navbar img{
+    width:120px;
+  }
+@media (max-width:600px){
+    .navbar img{
+      width:120px;
+    }
+  }
+@media (max-width:380px){
+    .navbar img{
+      width:100px;
+    }
+  }
+@media (max-width:1200px){
+    .navbar-nav{
+      gap:0.50em;
+    }
+  }
+</style>
+
+<div class="container-nav">
   <nav class="navbar navbar-expand-lg mx-3">
-      <img src="img/castillo-nombre-solo.svg" alt="El Castillo" class="position-sticky">        
+      <img src="img/castillo-nombre-solo.svg" alt="El Castillo">        
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,3 +83,4 @@
     </div>
   </nav>
 </div>
+

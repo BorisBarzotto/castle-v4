@@ -1,17 +1,27 @@
 import { Router } from "express";
-import Mercancia from "../models/mercancia.js";
+//import Mercancia from "../models/mercancia.js";
+import mercancias from "../public/mercancias.json" assert {type: 'json'};
 import tiendasUbicacion from '../public/shops.json' assert {type: 'json'};
-
 
 const router = Router();
 
 router.get("/", async (req,res)=>{
-  const mercancias = await Mercancia.find().lean();
-  res.render('home', { mercancias, tiendasUbicacion } );
+  //const mercancias = await Mercancia.find().lean();
+  const ciudades = tiendasUbicacion.map(tienda=>{
+    return tienda.ciudad
+  }).sort();
+
+  const listaCiudades = new Set(ciudades);
+
+  res.render('home', { mercancias, listaCiudades} );
 });
 
 router.get("/about", (req,res)=>{
   res.render('about');
+});
+
+router.get("/news", (req,res)=>{
+  res.render('news');
 });
 /*
 router.post("/add", async (req, res) => {

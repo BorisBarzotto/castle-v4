@@ -140,6 +140,9 @@ addEventListener("DOMContentLoaded", (event) => {
       .getElementById("button")
       .removeEventListener("click", renderingMap);
   }
+
+
 });
+
 
 //---------------------------------------------------------------------------------------------
